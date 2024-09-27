@@ -1,0 +1,2 @@
+# Add support onTokenTransfer for arbitrum token gateway
+目前有两种方法来实现onTokenTransfer One is to implement a specific unit for each usage(Single way). 另外一种是建立一个分发中心，用staticcall来组织逻辑并执行。 Both way can implemnt the same function.
